@@ -1,3 +1,7 @@
 # Structure-Free Prediction and Mechanistic Interpretation of Protein–Ligand Binding Affinity via iBAMs
 
 Accurate prediction of protein–ligand binding affinity is critical for accelerating drug discovery, yet traditional methods are constrained by their dependence on high-resolution structural data and limited mechanistic insight. Here, we introduce DeepBindMini, a novel, lightweight, structure-free deep learning framework that utilizes solely protein sequences and ligand SMILES representations. By integrating a pre-trained protein language model (ESM2) with a convolutional neural network for residue-level feature extraction, and combining these features with chemically rich Morgan fingerprints via a dual cross-attention mechanism, DeepBindMini intrinsically generates Interpretable Binding Attention Maps (iBAMs). These maps provide a high-resolution, bidirectional visualization of key residue–ligand interactions, offering actionable mechanistic insights that guide hypothesis-driven lead optimization in the absence of three-dimensional structures.
+
+![DeepBindMini Model Architecture](architecture.png)
+
+![iBAM for the HSP90-alpha–Ligand Complex](iBAM.png)
